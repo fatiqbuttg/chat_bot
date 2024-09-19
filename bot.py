@@ -50,7 +50,7 @@ def retrieve_answer(docs, embeddings, llm, query):
 if __name__ == "__main__":
     file_path = "./Pakistan.pdf"
     docs = load_pdf(file_path)
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyBYrlv8NiKila8i_Wk-ucEYTuO8RNMI2lQ"
+    os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY"
 
     llm = GoogleGenerativeAI(model="gemini-pro", temperature=0.7)
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
