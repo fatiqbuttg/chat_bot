@@ -29,17 +29,14 @@ Follow these steps to set up and run the bot:
 1. **Clone the Repository**
 
 2. **Navigate to the Project Directory:**
-      **Change to the project directory:**
-      cd chat_bot
-      Create a Virtual Environment (Optional but Recommended)
-
+      - `cd chat_bot`
 3. **Create a virtual environment to manage dependencies:**
-    python3 -m venv code_env
+      - `python3 -m venv code_env`
    
 4. **Install Dependencies:**
-    pip3 install -r requirements.txt
+      - `pip3 install -r requirements.txt`
 
 5. **Add your api key in code**
 6. **Run the Script:**
-     python3 bot.py
+      - `python3 bot.py`
 
